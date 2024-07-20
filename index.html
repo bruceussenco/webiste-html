@@ -6,7 +6,7 @@
     <title>HTML Website</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about-me">About Me</a></li>
@@ -17,16 +17,56 @@
                 </a>
             </li>
         </ul>
-    </header>
+    </header> -->
     <main>
-        <div class="hi-name">
-            <h3 class="hi">Hi, I am</h3>
-            <h1 class="name">Bruce Ussenco</h1>
+        <div id="presentation" class="section">
+            <div class="hi-name">
+                <h3 class="hi">Hi, I am</h3>
+                <h1 class="name">Bruce Ussenco</h1>
+            </div>
+            <h2 class="skill">Programmer & Web Developer</h2>
+            <p class="skill-description"></p>
         </div>
-        <h2 class="skill">Programmer & Web Developer</h2>
-        <p class="skill-description"></p>
+
+        <div id="skills-section" class="section">
+            <h1>My Skills</h1>
+            <ul class="skill-list">
+                <li>
+                    <img src="./images/logo-javascript.svg" alt="javascript" />
+                    <p>JavaScript</p>
+                </li>
+                <li>
+                    <img src="./images/logo-html.svg" alt="html" />
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <img src="./images/logo-css.svg" alt="css" />
+                    <p>CSS</p>
+                </li>
+            </ul>
+        </div>
     </main>
     <footer>
+        <div id="social-media">
+            <p>social media</p>
+            <ul id="social-media-list">
+                <li>
+                    <a href="https://www.github.com/bruceussenco" target="_blank">
+                        <img src="./images/github-icon.svg" alt="github" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/bruce-ussenco" target="_blank">
+                        <img src="./images/linkedin-icon.svg" alt="likedin" />
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:bruceussenco@gmail.com" target="_blank">
+                        <img src="./images/email-icon.svg" alt="my email" />
+                    </a>
+                </li>
+            </ul>
+        </div>
         Bruce Ussenco - 2024
     </footer>
 </body>
